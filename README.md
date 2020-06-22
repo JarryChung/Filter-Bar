@@ -37,7 +37,7 @@
 2. 在数据需要改变时必须触发以下两个事件：
 
    ```javascript
-   const val = 'you data source'
+   const val = 'your data source'
    // 当数据改变时必须触发以下两个事件
    // * 若有其他事件，将透传给业务
    this.$emit('update:value', val) // 用于数据更新
